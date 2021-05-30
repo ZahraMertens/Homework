@@ -1,0 +1,269 @@
+/*The structure of the css file appears in the
+same order as the content of the webpage and the structure of the html file.
+The universal elements are at the beginning of the file as they address the whole 
+webpage. All specific tags which are not defined by an id or class element follow
+and the rest of the style.css file are the id and class elements and displayed 
+in order of the html file structure. */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/*Added a positioning to define the webpages structure*/ 
+main {
+    position: static;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Added a new element to change the positioning of the header 
+that it is easier to go to specific parts of the webpage, 
+no matter if you are at the bottom or top of the webpage */
+header {
+    position: fixed;
+    width: 100%;
+}
+
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Added a border and changed its colour & radius to pick up the same colour as in the main content
+and make the page look more modern*/
+.header h1 {
+    display: inline-block;
+    font-size: 55px;
+    border-radius: 7px;
+    border: 2px solid #ffa32b;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    /*Made the border of the picture round to match the rest of the webpage*/
+    border-radius: 20px;
+     /*Added shaddows to the boxes to make the webpage look less static*/
+     -webkit-box-shadow: 0 10px 6px -6px rgb(82, 82, 82);
+     -moz-box-shadow: 0 10px 6px -6px rgb(82, 82, 82);
+     box-shadow: 0 10px 6px -6px rgb(82, 82, 82);
+    
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+    /*Added a border radius to make the border round and make 
+    the page look modern*/
+    border-radius: 20px;
+    /*Added a border and changed its colour to pick up the same colour 
+    as the background of the benefits div*/
+    border: 5px solid #ffa32b;
+     /*Added shaddows to the boxes to make the webpage look less static*/
+     -webkit-box-shadow: 0 10px 6px -6px rgb(150, 104, 84);
+     -moz-box-shadow: 0 10px 6px -6px rgb(150, 104, 84);
+     box-shadow: 0 10px 6px -6px rgb(150, 104, 84);
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    /*Added a border radius to make the border round and make the page look modern*/
+    border-radius: 20px;
+    /*Added a border and changed its colour to pick up the same colour 
+    as the background of the benefits div*/
+    border: 5px solid #ffa32b;
+     /*Added shaddows to the boxes to make the webpage look less static*/
+     -webkit-box-shadow: 0 10px 6px -6px rgb(150, 104, 84);
+     -moz-box-shadow: 0 10px 6px -6px rgb(150, 104, 84);
+     box-shadow: 0 10px 6px -6px rgb(150, 104, 84);
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    /*Added a border radius to make the border round and make the page look modern*/
+    border-radius: 20px;
+    /*Added a border and changed its colour to pick up the same colour 
+    as the background of the benefits div*/
+    border: 5px solid #ffa32b;
+     /*Added shaddows to the boxes to make the webpage look less static*/
+     -webkit-box-shadow: 0 10px 6px -6px rgb(150, 104, 84);
+     -moz-box-shadow: 0 10px 6px -6px rgb(150, 104, 84);
+     box-shadow: 0 10px 6px -6px rgb(150, 104, 84);
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Changed the background-color to display the difference 
+    between the benefits and the main content?*/
+    background-color: #ffa32b;
+    /* Added a border and changed its colour to the same as the background of the 
+    main content to style the page*/
+    border: 5px solid #0072bb;
+    /*Added a border radius to make the border round and make the page look modern*/
+    border-radius: 20px;
+    /*Added shaddows to the boxes to make the webpage look less static*/
+    -webkit-box-shadow: 0 10px 6px -6px rgb(101, 102, 145);
+    -moz-box-shadow: 0 10px 6px -6px rgb(101, 102, 145);
+    box-shadow: 0 10px 6px -6px rgb(101, 102, 145);
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+    margin: 2px solid #0072bb;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}

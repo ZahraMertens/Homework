@@ -9,7 +9,7 @@ The webpage is a landing page which contains a navigation bar, a header image, a
 ## Table if Contents
 1. [General Information](#general-informaion)
 2. [Task Description](#task-description)
-3. [Cganges that have been made](#changes-that-have-been-made)
+3. [Changes that have been made](#changes-that-have-been-made)
 4. [Mock-Up](#mock-up)
 5. [Credits](#credits)
 

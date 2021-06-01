@@ -4,6 +4,8 @@
 
 ```
 The webpage is a landing page which contains a navigation bar, a header image, and crads with text & images and a container. The webpages content is about marketing strategies and its benefits.
+
+URL of the webpage: https://zahramertens.github.io/Horesion-Project/
 ```
 
 ## Table if Contents

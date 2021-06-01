@@ -5,12 +5,15 @@ webpage. All specific tags which are not defined by an id or class element follo
 and the rest of the style.css file are the id and class elements and displayed 
 in order of the html file structure. */
 
+
+/*The universal selector defines all HTML elements on the webpage*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*All Grouping selectors style all HTML elements the same that are in the group*/
 p {
     font-size: 16px;
 }
@@ -23,6 +26,8 @@ body {
 main {
     position: static;
 }
+
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -45,7 +50,9 @@ header {
 }
 
 /*Added a border and changed its colour & radius to pick up the same colour as in the main content
-and make the page look more modern*/
+and make the page look more modern
+
+This selectors style the main heading/companies name*/
 .header h1 {
     display: inline-block;
     font-size: 55px;
@@ -57,6 +64,7 @@ and make the page look more modern*/
     color: #d9dcd6;
 }
 
+/*This selectors style the nav bar content*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -74,6 +82,7 @@ and make the page look more modern*/
     margin-left: 25px;
 }
 
+/*This selctor styles the main image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -90,12 +99,14 @@ and make the page look more modern*/
     
 }
 
+/*This selector styles the main content*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*This selctores style the Search Engine Optimization container*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,6 +130,7 @@ and make the page look more modern*/
     max-height: 200px;
 }
 
+/*This selector defines the position of the SEO container img and the SMM container img*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -129,6 +141,7 @@ and make the page look more modern*/
     font-size: 36px;
 }
 
+/*This selctores style the Online Reputation Management container*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,6 +173,7 @@ and make the page look more modern*/
     font-size: 36px;
 }
 
+/*This selctores style the Social Media Marketing container*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,6 +201,7 @@ and make the page look more modern*/
     font-size: 36px;
 }
 
+/*This selector styles/defines the the whole div class="benefits" cointainer*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -209,6 +224,7 @@ and make the page look more modern*/
     box-shadow: 0 10px 6px -6px rgb(101, 102, 145);
 }
 
+/*This selectors style the benefit-lead class */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -225,6 +241,8 @@ and make the page look more modern*/
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*This selectors style the benefit-brand class */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -241,6 +259,7 @@ and make the page look more modern*/
     max-width: 150px;
 }
 
+/*This selectors style the benefit-cost class */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -257,6 +276,7 @@ and make the page look more modern*/
     max-width: 150px;
 }
 
+/*This is the footer and defines the end of the webpage and shows the legal rights*/
 .footer {
     padding: 30px;
     clear: both;
@@ -267,3 +287,4 @@ and make the page look more modern*/
 .footer h2 {
     font-size: 20px;
 }
+

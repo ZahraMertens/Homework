@@ -44,7 +44,7 @@ The goal is to avoid litigation and to optimize for search engines.
 The following image shows the web applications apperance and functionality:
 
 
-![The-Horesion-Webpage-contains-a-navigation-bar-,-a-header-and-cards-with-text-and-images](./Assets/Images/Horesion-webpage-screenshot.png)
+![The-Horesion-Webpage-contains-a-navigation-bar-,-a-header-and-cards-with-text-and-images](./images/Horesion-webpage-screenshot.png)
 
 ## Credits
 
